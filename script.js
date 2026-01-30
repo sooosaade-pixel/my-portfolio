@@ -1,17 +1,4 @@
-const music = document.getElementById("bgMusic");
-const musicBtn = document.getElementById("musicBtn");
-let isPlaying = false;
 
-function toggleMusic() {
-  if (isPlaying) {
-    music.pause();
-    musicBtn.textContent = "🎵 تشغيل الموسيقى";
-  } else {
-    music.play();
-    musicBtn.textContent = "⏸ إيقاف الموسيقى";
-  }
-  isPlaying = !isPlaying;
-}
 
 function scrollToSection() {
   document.getElementById("about").scrollIntoView({
@@ -180,3 +167,8 @@ setTimeout(() => {
   const bar = document.getElementById("loader-bar");
   if (bar) bar.style.display = "none";
 }, 2600);
+const music = document.getElementById("bgMusic");
+const btn = document.getElementById("musicBtn");
+
+let playing = false;
+
