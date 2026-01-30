@@ -929,3 +929,16 @@ button:hover,
 }
 *{box-sizing:border-box}
 html,body{overflow-x:hidden}
+#musicBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #00ff88;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #00ff88;
+}
